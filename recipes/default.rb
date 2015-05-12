@@ -1,10 +1,10 @@
 #
-# Cookbook Name:: nfs-nativex
+# Cookbook Name:: nfs-simplyadrian
 # Recipe:: default
 #
-# Copyright 2014, NativeX
+# Copyright 2014, simplyadrian
 #
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe  "nfs-nativex::export"
+include_recipe  "nfs-simplyadrian::export"

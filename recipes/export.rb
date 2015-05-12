@@ -1,15 +1,15 @@
 #
-# Cookbook Name:: nfs-nativex
+# Cookbook Name:: nfs-simplyadrian
 # Recipe:: export
 #
-# Copyright 2014, NativeX
+# Copyright 2014, simplyadrian
 #
 # All rights reserved - Do Not Redistribute
 #
 
-nfs_export node['nfs-nativex']['export_dir'] do
-  network node['nfs-nativex']['network']
-  writeable node['nfs-nativex']['writeable']
-  sync node['nfs-nativex']['sync']
-  options node['nfs-nativex']['options']
+nfs_export node['nfs-simplyadrian']['export_dir'] do
+  network node['nfs-simplyadrian']['network']
+  writeable node['nfs-simplyadrian']['writeable']
+  sync node['nfs-simplyadrian']['sync']
+  options node['nfs-simplyadrian']['options']
 end

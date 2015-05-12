@@ -1,11 +1,11 @@
 #
 # Export Directory
-default['nfs-nativex']['export_dir'] = "/mnt/ebs"
+default['nfs-simplyadrian']['export_dir'] = "/mnt/ebs"
 # Network
-default['nfs-nativex']['network'] = "172.16.0.0/12"
+default['nfs-simplyadrian']['network'] = "172.16.0.0/12"
 # Writeable ro/rw
-default['nfs-nativex']['writeable'] = false
+default['nfs-simplyadrian']['writeable'] = false
 # synchronous/asynchronous export option
-default['nfs-nativex']['sync'] = true
+default['nfs-simplyadrian']['sync'] = true
 # options
-default['nfs-nativex']['options'] = ['no_root_squash']
+default['nfs-simplyadrian']['options'] = ['no_root_squash']

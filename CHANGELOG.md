@@ -1,11 +1,11 @@
-nfs-nativex CHANGELOG
+nfs-simplyadrian CHANGELOG
 =====================
 
-This file is used to list changes made in each version of the nfs-nativex cookbook.
+This file is used to list changes made in each version of the nfs-simplyadrian cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of nfs-nativex
+- [Adrian Herrera] - Initial release of nfs-simplyadrian
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
